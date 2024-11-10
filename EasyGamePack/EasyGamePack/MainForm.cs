@@ -214,8 +214,10 @@ namespace EasyGamePack
 
         private void btnTetris_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("테트리스 게임이 준비 중입니다.", "알림",
-                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            TetrisGame.Form1 TetrisGameForm = new TetrisGame.Form1();
+            this.Hide();
+            TetrisGameForm.ShowDialog();   
+            this.Show();
         }
 
         private void btnBlackjack_Click(object sender, EventArgs e)
