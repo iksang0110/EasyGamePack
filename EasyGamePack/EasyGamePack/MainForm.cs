@@ -200,8 +200,10 @@ namespace EasyGamePack
 
         private void btnOmok_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("오목 게임이 준비 중입니다.", "알림",
-                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Omok.Form1 omokForm = new Omok.Form1();
+            this.Hide();
+            omokForm.ShowDialog();
+            this.Show();
         }
 
         private void btnTicTacToe_Click(object sender, EventArgs e)
