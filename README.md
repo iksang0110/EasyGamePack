@@ -216,4 +216,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 5. Open a Pull Request
 
 ---
-© 2023 EasyGamePack Team. All Rights Reserved.
+© 2024 EasyGamePack Team. All Rights Reserved.

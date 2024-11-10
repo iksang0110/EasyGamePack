@@ -34,12 +34,3 @@ bld/
 # Visual Studio code coverage results
 *.coverage
 *.coveragexml
-
-# NuGet Packages
-*.nupkg
-*.snupkg
-**/packages/*
-!**/packages/build/
-*.nuget.props
-*.nuget.targets
-
