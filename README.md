@@ -1,3 +1,132 @@
+# Git 협업 가이드
+
+## 브랜치 전략
+```
+main - 최종 릴리즈용
+  ├── feature/main - 게임 선택 메인 화면
+  ├── feature/omok - 오목 게임
+  ├── feature/tictactoe - 틱택톡 게임
+  ├── feature/tetris - 테트리스 게임
+  ├── feature/blackjack - 블랙잭 게임
+  └── feature/memory - 기억력 게임
+```
+
+## 개발 프로세스
+1. 자신의 feature 브랜치 생성
+```bash
+git checkout -b feature/[game-name]
+```
+
+2. 작업 전 최신 코드 동기화
+```bash
+git checkout main
+git pull origin main
+git checkout feature/[game-name]
+git merge main
+```
+
+3. 작업 후 커밋 & 푸시
+```bash
+git add .
+git commit -m "feat: [작업내용]"
+git push origin feature/[game-name]
+```
+
+## Pull Request 규칙
+1. PR 템플릿
+```markdown
+## 변경 사항
+- 구현한 기능 설명
+- 변경된 파일 목록
+
+## 스크린샷
+- 필요한 경우 추가
+
+## 테스트 체크리스트
+- [ ] 게임 실행 테스트
+- [ ] 메인 화면 연동 테스트
+- [ ] 버그 체크
+
+## 리뷰어
+@담당자이름
+```
+
+2. PR은 최소 1명 이상의 리뷰어 승인 필요
+3. Merge는 리뷰 승인 후 진행
+
+## Issue 규칙
+1. Issue 템플릿
+```markdown
+## 이슈 내용
+- 문제점 또는 기능 요청 설명
+
+## 해결 방안 (선택)
+- 제안하는 해결 방법
+
+## 참고 사항
+- 관련 코드나 스크린샷
+```
+
+## Commit Message Convention
+```
+type: subject
+
+body (선택)
+
+footer (선택)
+```
+
+### Type
+- `feat`: 새로운 게임 기능 추가
+- `fix`: 버그 수정
+- `refactor`: 코드 리팩토링
+- `style`: 코드 포맷팅
+- `docs`: 문서 수정
+- `test`: 테스트 코드
+- `chore`: 빌드, 설정 변경
+
+### 예시
+```
+feat: 오목 게임 메인화면 연동 구현
+
+- 시작하기 버튼 클릭 시 오목 게임 실행
+- 게임 종료 시 메인화면 복귀 기능 추가
+
+Resolves: #123
+```
+
+## 작업 순서 예시
+1. 첫 번째 개발자 (메인 화면)
+```bash
+git checkout -b feature/main
+# 작업 수행
+git add .
+git commit -m "feat: 게임 선택 메인 화면 구현"
+git push origin feature/main
+# PR 생성 및 merge
+```
+
+2. 두 번째 개발자 (오목)
+```bash
+git checkout main
+git pull origin main
+git checkout -b feature/omok
+# 작업 수행
+git add .
+git commit -m "feat: 오목 게임 구현 및 메인화면 연동"
+git push origin feature/omok
+# PR 생성 및 merge
+```
+
+3. 나머지 개발자들도 동일한 방식으로 진행
+
+## 주의사항
+- 작업 전 반드시 main 브랜치의 최신 상태 확인
+- 충돌 발생 시 팀원과 상의 후 해결
+- 커밋 메시지는 명확하고 상세하게 작성
+- PR 시 반드시 테스트 후 제출
+
+
 # 이지게임팩 (EasyGamePack)
 ## 원광대학교 윈도우프로그래밍 6조 프로젝트
 
