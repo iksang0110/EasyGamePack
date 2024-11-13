@@ -208,8 +208,10 @@ namespace EasyGamePack
 
         private void btnTicTacToe_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("틱택톡 게임이 준비 중입니다.", "알림",
-                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            WindowsFormsApp7.Form1 tictactoeForm = new WindowsFormsApp7.Form1();
+            this.Hide();
+            tictactoeForm.ShowDialog();
+            this.Show();
         }
 
         private void btnTetris_Click(object sender, EventArgs e)
