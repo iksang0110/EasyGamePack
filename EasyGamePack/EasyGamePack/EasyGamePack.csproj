@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="game\memory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\memory.Designer.cs">
+      <DependentUpon>memory.cs</DependentUpon>
+    </Compile>
     <Compile Include="game\tetris.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="game\memory.resx">
+      <DependentUpon>memory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="game\Omok.resx">
       <DependentUpon>Omok.cs</DependentUpon>
     </EmbeddedResource>
