@@ -76,7 +76,7 @@ namespace EasyGamePack
             this.panelTop.Location = new System.Drawing.Point(0, 0);
             this.panelTop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(700, 64);
+            this.panelTop.Size = new System.Drawing.Size(800, 80);
             this.panelTop.TabIndex = 1;
             this.panelTop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTop_Paint_2);
             // 
@@ -85,9 +85,9 @@ namespace EasyGamePack
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold);
             this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(20, 12);
+            this.lblTitle.Location = new System.Drawing.Point(23, 15);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(134, 32);
+            this.lblTitle.Size = new System.Drawing.Size(168, 41);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "이지게임팩";
             // 
@@ -96,9 +96,9 @@ namespace EasyGamePack
             this.lblCredit.AutoSize = true;
             this.lblCredit.Font = new System.Drawing.Font("맑은 고딕", 9F);
             this.lblCredit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.lblCredit.Location = new System.Drawing.Point(20, 44);
+            this.lblCredit.Location = new System.Drawing.Point(23, 55);
             this.lblCredit.Name = "lblCredit";
-            this.lblCredit.Size = new System.Drawing.Size(190, 15);
+            this.lblCredit.Size = new System.Drawing.Size(237, 20);
             this.lblCredit.TabIndex = 1;
             this.lblCredit.Text = "원광대학교 윈도우프로그래밍 6조";
             // 
@@ -110,10 +110,10 @@ namespace EasyGamePack
             this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogout.Font = new System.Drawing.Font("맑은 고딕", 9F);
             this.btnLogout.ForeColor = System.Drawing.Color.White;
-            this.btnLogout.Location = new System.Drawing.Point(600, 20);
+            this.btnLogout.Location = new System.Drawing.Point(686, 25);
             this.btnLogout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(80, 24);
+            this.btnLogout.Size = new System.Drawing.Size(91, 30);
             this.btnLogout.TabIndex = 2;
             this.btnLogout.Text = "로그아웃";
             this.btnLogout.UseVisualStyleBackColor = false;
@@ -124,10 +124,10 @@ namespace EasyGamePack
             this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(37)))), ((int)(((byte)(42)))));
             this.panelMain.Controls.Add(this.flowGames);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMain.Location = new System.Drawing.Point(0, 64);
+            this.panelMain.Location = new System.Drawing.Point(0, 80);
             this.panelMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(700, 496);
+            this.panelMain.Size = new System.Drawing.Size(800, 620);
             this.panelMain.TabIndex = 0;
             // 
             // flowGames
@@ -144,8 +144,8 @@ namespace EasyGamePack
             this.flowGames.Location = new System.Drawing.Point(0, 0);
             this.flowGames.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowGames.Name = "flowGames";
-            this.flowGames.Padding = new System.Windows.Forms.Padding(15, 16, 15, 16);
-            this.flowGames.Size = new System.Drawing.Size(700, 496);
+            this.flowGames.Padding = new System.Windows.Forms.Padding(17, 20, 17, 20);
+            this.flowGames.Size = new System.Drawing.Size(800, 620);
             this.flowGames.TabIndex = 0;
             this.flowGames.WrapContents = false;
             this.flowGames.Paint += new System.Windows.Forms.PaintEventHandler(this.flowGames_Paint);
@@ -157,19 +157,19 @@ namespace EasyGamePack
             this.panelOmok.Controls.Add(this.lblOmokTitle);
             this.panelOmok.Controls.Add(this.lblOmokDesc);
             this.panelOmok.Controls.Add(this.btnOmok);
-            this.panelOmok.Location = new System.Drawing.Point(23, 24);
-            this.panelOmok.Margin = new System.Windows.Forms.Padding(8);
+            this.panelOmok.Location = new System.Drawing.Point(26, 30);
+            this.panelOmok.Margin = new System.Windows.Forms.Padding(9, 10, 9, 10);
             this.panelOmok.Name = "panelOmok";
-            this.panelOmok.Size = new System.Drawing.Size(180, 360);
+            this.panelOmok.Size = new System.Drawing.Size(206, 450);
             this.panelOmok.TabIndex = 0;
             // 
             // picOmok
             // 
             this.picOmok.BackColor = System.Drawing.Color.Transparent;
-            this.picOmok.Location = new System.Drawing.Point(20, 16);
+            this.picOmok.Location = new System.Drawing.Point(23, 20);
             this.picOmok.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picOmok.Name = "picOmok";
-            this.picOmok.Size = new System.Drawing.Size(140, 112);
+            this.picOmok.Size = new System.Drawing.Size(160, 140);
             this.picOmok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picOmok.TabIndex = 0;
             this.picOmok.TabStop = false;
@@ -178,9 +178,9 @@ namespace EasyGamePack
             // 
             this.lblOmokTitle.Font = new System.Drawing.Font("맑은 고딕", 16F, System.Drawing.FontStyle.Bold);
             this.lblOmokTitle.ForeColor = System.Drawing.Color.White;
-            this.lblOmokTitle.Location = new System.Drawing.Point(20, 144);
+            this.lblOmokTitle.Location = new System.Drawing.Point(23, 180);
             this.lblOmokTitle.Name = "lblOmokTitle";
-            this.lblOmokTitle.Size = new System.Drawing.Size(140, 32);
+            this.lblOmokTitle.Size = new System.Drawing.Size(160, 40);
             this.lblOmokTitle.TabIndex = 1;
             this.lblOmokTitle.Text = "오목";
             this.lblOmokTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -189,9 +189,9 @@ namespace EasyGamePack
             // 
             this.lblOmokDesc.Font = new System.Drawing.Font("맑은 고딕", 10F);
             this.lblOmokDesc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.lblOmokDesc.Location = new System.Drawing.Point(20, 176);
+            this.lblOmokDesc.Location = new System.Drawing.Point(23, 220);
             this.lblOmokDesc.Name = "lblOmokDesc";
-            this.lblOmokDesc.Size = new System.Drawing.Size(140, 61);
+            this.lblOmokDesc.Size = new System.Drawing.Size(160, 76);
             this.lblOmokDesc.TabIndex = 2;
             this.lblOmokDesc.Text = "봇과 즐기는\n전략 보드게임\nmade by. 정익상";
             this.lblOmokDesc.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -204,10 +204,10 @@ namespace EasyGamePack
             this.btnOmok.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOmok.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
             this.btnOmok.ForeColor = System.Drawing.Color.White;
-            this.btnOmok.Location = new System.Drawing.Point(20, 304);
+            this.btnOmok.Location = new System.Drawing.Point(23, 380);
             this.btnOmok.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOmok.Name = "btnOmok";
-            this.btnOmok.Size = new System.Drawing.Size(140, 32);
+            this.btnOmok.Size = new System.Drawing.Size(160, 40);
             this.btnOmok.TabIndex = 3;
             this.btnOmok.Text = "시작하기";
             this.btnOmok.UseVisualStyleBackColor = false;
@@ -220,19 +220,19 @@ namespace EasyGamePack
             this.panelTicTacToe.Controls.Add(this.lblTicTacToeTitle);
             this.panelTicTacToe.Controls.Add(this.lblTicTacToeDesc);
             this.panelTicTacToe.Controls.Add(this.btnTicTacToe);
-            this.panelTicTacToe.Location = new System.Drawing.Point(219, 24);
-            this.panelTicTacToe.Margin = new System.Windows.Forms.Padding(8);
+            this.panelTicTacToe.Location = new System.Drawing.Point(250, 30);
+            this.panelTicTacToe.Margin = new System.Windows.Forms.Padding(9, 10, 9, 10);
             this.panelTicTacToe.Name = "panelTicTacToe";
-            this.panelTicTacToe.Size = new System.Drawing.Size(180, 360);
+            this.panelTicTacToe.Size = new System.Drawing.Size(206, 450);
             this.panelTicTacToe.TabIndex = 1;
             // 
             // picTicTacToe
             // 
             this.picTicTacToe.BackColor = System.Drawing.Color.Transparent;
-            this.picTicTacToe.Location = new System.Drawing.Point(20, 16);
+            this.picTicTacToe.Location = new System.Drawing.Point(23, 20);
             this.picTicTacToe.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picTicTacToe.Name = "picTicTacToe";
-            this.picTicTacToe.Size = new System.Drawing.Size(140, 112);
+            this.picTicTacToe.Size = new System.Drawing.Size(160, 140);
             this.picTicTacToe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picTicTacToe.TabIndex = 0;
             this.picTicTacToe.TabStop = false;
@@ -241,9 +241,9 @@ namespace EasyGamePack
             // 
             this.lblTicTacToeTitle.Font = new System.Drawing.Font("맑은 고딕", 16F, System.Drawing.FontStyle.Bold);
             this.lblTicTacToeTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTicTacToeTitle.Location = new System.Drawing.Point(20, 144);
+            this.lblTicTacToeTitle.Location = new System.Drawing.Point(23, 180);
             this.lblTicTacToeTitle.Name = "lblTicTacToeTitle";
-            this.lblTicTacToeTitle.Size = new System.Drawing.Size(140, 32);
+            this.lblTicTacToeTitle.Size = new System.Drawing.Size(160, 40);
             this.lblTicTacToeTitle.TabIndex = 1;
             this.lblTicTacToeTitle.Text = "틱택톡";
             this.lblTicTacToeTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -252,9 +252,9 @@ namespace EasyGamePack
             // 
             this.lblTicTacToeDesc.Font = new System.Drawing.Font("맑은 고딕", 10F);
             this.lblTicTacToeDesc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.lblTicTacToeDesc.Location = new System.Drawing.Point(20, 176);
+            this.lblTicTacToeDesc.Location = new System.Drawing.Point(23, 220);
             this.lblTicTacToeDesc.Name = "lblTicTacToeDesc";
-            this.lblTicTacToeDesc.Size = new System.Drawing.Size(140, 61);
+            this.lblTicTacToeDesc.Size = new System.Drawing.Size(160, 76);
             this.lblTicTacToeDesc.TabIndex = 2;
             this.lblTicTacToeDesc.Text = "3x3 격자의\n두뇌 게임\nmade by. 양우혁";
             this.lblTicTacToeDesc.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -267,10 +267,10 @@ namespace EasyGamePack
             this.btnTicTacToe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTicTacToe.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
             this.btnTicTacToe.ForeColor = System.Drawing.Color.White;
-            this.btnTicTacToe.Location = new System.Drawing.Point(20, 304);
+            this.btnTicTacToe.Location = new System.Drawing.Point(23, 380);
             this.btnTicTacToe.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTicTacToe.Name = "btnTicTacToe";
-            this.btnTicTacToe.Size = new System.Drawing.Size(140, 32);
+            this.btnTicTacToe.Size = new System.Drawing.Size(160, 40);
             this.btnTicTacToe.TabIndex = 3;
             this.btnTicTacToe.Text = "시작하기";
             this.btnTicTacToe.UseVisualStyleBackColor = false;
@@ -283,30 +283,31 @@ namespace EasyGamePack
             this.panelTetris.Controls.Add(this.lblTetrisTitle);
             this.panelTetris.Controls.Add(this.lblTetrisDesc);
             this.panelTetris.Controls.Add(this.btnTetris);
-            this.panelTetris.Location = new System.Drawing.Point(415, 24);
-            this.panelTetris.Margin = new System.Windows.Forms.Padding(8);
+            this.panelTetris.Location = new System.Drawing.Point(474, 30);
+            this.panelTetris.Margin = new System.Windows.Forms.Padding(9, 10, 9, 10);
             this.panelTetris.Name = "panelTetris";
-            this.panelTetris.Size = new System.Drawing.Size(180, 360);
+            this.panelTetris.Size = new System.Drawing.Size(206, 450);
             this.panelTetris.TabIndex = 2;
             // 
             // picTetris
             // 
             this.picTetris.BackColor = System.Drawing.Color.Transparent;
-            this.picTetris.Location = new System.Drawing.Point(20, 16);
+            this.picTetris.Location = new System.Drawing.Point(23, 20);
             this.picTetris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picTetris.Name = "picTetris";
-            this.picTetris.Size = new System.Drawing.Size(140, 112);
+            this.picTetris.Size = new System.Drawing.Size(160, 140);
             this.picTetris.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picTetris.TabIndex = 0;
             this.picTetris.TabStop = false;
+            this.picTetris.Click += new System.EventHandler(this.picTetris_Click);
             // 
             // lblTetrisTitle
             // 
             this.lblTetrisTitle.Font = new System.Drawing.Font("맑은 고딕", 16F, System.Drawing.FontStyle.Bold);
             this.lblTetrisTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTetrisTitle.Location = new System.Drawing.Point(20, 144);
+            this.lblTetrisTitle.Location = new System.Drawing.Point(23, 180);
             this.lblTetrisTitle.Name = "lblTetrisTitle";
-            this.lblTetrisTitle.Size = new System.Drawing.Size(140, 32);
+            this.lblTetrisTitle.Size = new System.Drawing.Size(160, 40);
             this.lblTetrisTitle.TabIndex = 1;
             this.lblTetrisTitle.Text = "테트리스";
             this.lblTetrisTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -315,9 +316,9 @@ namespace EasyGamePack
             // 
             this.lblTetrisDesc.Font = new System.Drawing.Font("맑은 고딕", 10F);
             this.lblTetrisDesc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.lblTetrisDesc.Location = new System.Drawing.Point(20, 176);
+            this.lblTetrisDesc.Location = new System.Drawing.Point(23, 220);
             this.lblTetrisDesc.Name = "lblTetrisDesc";
-            this.lblTetrisDesc.Size = new System.Drawing.Size(140, 61);
+            this.lblTetrisDesc.Size = new System.Drawing.Size(160, 76);
             this.lblTetrisDesc.TabIndex = 2;
             this.lblTetrisDesc.Text = "블록 쌓기의\n클래식\nmade by. 김수호";
             this.lblTetrisDesc.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -330,10 +331,10 @@ namespace EasyGamePack
             this.btnTetris.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTetris.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
             this.btnTetris.ForeColor = System.Drawing.Color.White;
-            this.btnTetris.Location = new System.Drawing.Point(20, 304);
+            this.btnTetris.Location = new System.Drawing.Point(23, 380);
             this.btnTetris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTetris.Name = "btnTetris";
-            this.btnTetris.Size = new System.Drawing.Size(140, 32);
+            this.btnTetris.Size = new System.Drawing.Size(160, 40);
             this.btnTetris.TabIndex = 3;
             this.btnTetris.Text = "시작하기";
             this.btnTetris.UseVisualStyleBackColor = false;
@@ -346,19 +347,19 @@ namespace EasyGamePack
             this.panelBlackjack.Controls.Add(this.lblBlackjackTitle);
             this.panelBlackjack.Controls.Add(this.lblBlackjackDesc);
             this.panelBlackjack.Controls.Add(this.btnBlackjack);
-            this.panelBlackjack.Location = new System.Drawing.Point(611, 24);
-            this.panelBlackjack.Margin = new System.Windows.Forms.Padding(8);
+            this.panelBlackjack.Location = new System.Drawing.Point(698, 30);
+            this.panelBlackjack.Margin = new System.Windows.Forms.Padding(9, 10, 9, 10);
             this.panelBlackjack.Name = "panelBlackjack";
-            this.panelBlackjack.Size = new System.Drawing.Size(180, 360);
+            this.panelBlackjack.Size = new System.Drawing.Size(206, 450);
             this.panelBlackjack.TabIndex = 3;
             // 
             // picBlackjack
             // 
             this.picBlackjack.BackColor = System.Drawing.Color.Transparent;
-            this.picBlackjack.Location = new System.Drawing.Point(20, 16);
+            this.picBlackjack.Location = new System.Drawing.Point(23, 20);
             this.picBlackjack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picBlackjack.Name = "picBlackjack";
-            this.picBlackjack.Size = new System.Drawing.Size(140, 112);
+            this.picBlackjack.Size = new System.Drawing.Size(160, 140);
             this.picBlackjack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBlackjack.TabIndex = 0;
             this.picBlackjack.TabStop = false;
@@ -367,9 +368,9 @@ namespace EasyGamePack
             // 
             this.lblBlackjackTitle.Font = new System.Drawing.Font("맑은 고딕", 16F, System.Drawing.FontStyle.Bold);
             this.lblBlackjackTitle.ForeColor = System.Drawing.Color.White;
-            this.lblBlackjackTitle.Location = new System.Drawing.Point(20, 144);
+            this.lblBlackjackTitle.Location = new System.Drawing.Point(23, 180);
             this.lblBlackjackTitle.Name = "lblBlackjackTitle";
-            this.lblBlackjackTitle.Size = new System.Drawing.Size(140, 32);
+            this.lblBlackjackTitle.Size = new System.Drawing.Size(160, 40);
             this.lblBlackjackTitle.TabIndex = 1;
             this.lblBlackjackTitle.Text = "블랙잭";
             this.lblBlackjackTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -378,9 +379,9 @@ namespace EasyGamePack
             // 
             this.lblBlackjackDesc.Font = new System.Drawing.Font("맑은 고딕", 10F);
             this.lblBlackjackDesc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.lblBlackjackDesc.Location = new System.Drawing.Point(20, 176);
+            this.lblBlackjackDesc.Location = new System.Drawing.Point(23, 220);
             this.lblBlackjackDesc.Name = "lblBlackjackDesc";
-            this.lblBlackjackDesc.Size = new System.Drawing.Size(140, 61);
+            this.lblBlackjackDesc.Size = new System.Drawing.Size(160, 76);
             this.lblBlackjackDesc.TabIndex = 2;
             this.lblBlackjackDesc.Text = "21을 향한\n카드 게임\nmade by. 최이지";
             this.lblBlackjackDesc.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -393,10 +394,10 @@ namespace EasyGamePack
             this.btnBlackjack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBlackjack.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
             this.btnBlackjack.ForeColor = System.Drawing.Color.White;
-            this.btnBlackjack.Location = new System.Drawing.Point(20, 304);
+            this.btnBlackjack.Location = new System.Drawing.Point(23, 380);
             this.btnBlackjack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBlackjack.Name = "btnBlackjack";
-            this.btnBlackjack.Size = new System.Drawing.Size(140, 32);
+            this.btnBlackjack.Size = new System.Drawing.Size(160, 40);
             this.btnBlackjack.TabIndex = 3;
             this.btnBlackjack.Text = "시작하기";
             this.btnBlackjack.UseVisualStyleBackColor = false;
@@ -409,19 +410,19 @@ namespace EasyGamePack
             this.panelMemory.Controls.Add(this.lblMemoryTitle);
             this.panelMemory.Controls.Add(this.lblMemoryDesc);
             this.panelMemory.Controls.Add(this.btnMemory);
-            this.panelMemory.Location = new System.Drawing.Point(807, 24);
-            this.panelMemory.Margin = new System.Windows.Forms.Padding(8);
+            this.panelMemory.Location = new System.Drawing.Point(922, 30);
+            this.panelMemory.Margin = new System.Windows.Forms.Padding(9, 10, 9, 10);
             this.panelMemory.Name = "panelMemory";
-            this.panelMemory.Size = new System.Drawing.Size(180, 360);
+            this.panelMemory.Size = new System.Drawing.Size(206, 450);
             this.panelMemory.TabIndex = 4;
             // 
             // picMemory
             // 
             this.picMemory.BackColor = System.Drawing.Color.Transparent;
-            this.picMemory.Location = new System.Drawing.Point(20, 16);
+            this.picMemory.Location = new System.Drawing.Point(23, 20);
             this.picMemory.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picMemory.Name = "picMemory";
-            this.picMemory.Size = new System.Drawing.Size(140, 112);
+            this.picMemory.Size = new System.Drawing.Size(160, 140);
             this.picMemory.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picMemory.TabIndex = 0;
             this.picMemory.TabStop = false;
@@ -430,9 +431,9 @@ namespace EasyGamePack
             // 
             this.lblMemoryTitle.Font = new System.Drawing.Font("맑은 고딕", 16F, System.Drawing.FontStyle.Bold);
             this.lblMemoryTitle.ForeColor = System.Drawing.Color.White;
-            this.lblMemoryTitle.Location = new System.Drawing.Point(20, 144);
+            this.lblMemoryTitle.Location = new System.Drawing.Point(23, 180);
             this.lblMemoryTitle.Name = "lblMemoryTitle";
-            this.lblMemoryTitle.Size = new System.Drawing.Size(140, 32);
+            this.lblMemoryTitle.Size = new System.Drawing.Size(160, 40);
             this.lblMemoryTitle.TabIndex = 1;
             this.lblMemoryTitle.Text = "기억력 게임";
             this.lblMemoryTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -441,9 +442,9 @@ namespace EasyGamePack
             // 
             this.lblMemoryDesc.Font = new System.Drawing.Font("맑은 고딕", 10F);
             this.lblMemoryDesc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.lblMemoryDesc.Location = new System.Drawing.Point(20, 176);
+            this.lblMemoryDesc.Location = new System.Drawing.Point(23, 220);
             this.lblMemoryDesc.Name = "lblMemoryDesc";
-            this.lblMemoryDesc.Size = new System.Drawing.Size(140, 61);
+            this.lblMemoryDesc.Size = new System.Drawing.Size(160, 76);
             this.lblMemoryDesc.TabIndex = 2;
             this.lblMemoryDesc.Text = "짝 맞추기\n두뇌 훈련\nmade by. 조효민";
             this.lblMemoryDesc.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -456,10 +457,10 @@ namespace EasyGamePack
             this.btnMemory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMemory.Font = new System.Drawing.Font("맑은 고딕", 11F, System.Drawing.FontStyle.Bold);
             this.btnMemory.ForeColor = System.Drawing.Color.White;
-            this.btnMemory.Location = new System.Drawing.Point(20, 304);
+            this.btnMemory.Location = new System.Drawing.Point(23, 380);
             this.btnMemory.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMemory.Name = "btnMemory";
-            this.btnMemory.Size = new System.Drawing.Size(140, 32);
+            this.btnMemory.Size = new System.Drawing.Size(160, 40);
             this.btnMemory.TabIndex = 3;
             this.btnMemory.Text = "시작하기";
             this.btnMemory.UseVisualStyleBackColor = false;
@@ -467,10 +468,10 @@ namespace EasyGamePack
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(37)))), ((int)(((byte)(42)))));
-            this.ClientSize = new System.Drawing.Size(700, 560);
+            this.ClientSize = new System.Drawing.Size(800, 700);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;

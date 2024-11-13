@@ -230,8 +230,10 @@ namespace EasyGamePack
 
         private void btnMemory_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("기억력 게임이 준비 중입니다.", "알림",
-                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MemoryGame.Form1 MemoryGameForm = new MemoryGame.Form1();
+            this.Hide();
+            MemoryGameForm.ShowDialog();
+            this.Show();
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -267,6 +269,11 @@ namespace EasyGamePack
         }
 
         private void flowGames_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void picTetris_Click(object sender, EventArgs e)
         {
 
         }
