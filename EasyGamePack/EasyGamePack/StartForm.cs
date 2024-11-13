@@ -24,14 +24,7 @@ namespace EasyGamePack
             // 버튼 펄스 효과 설정
             SetupPulseEffect();
 
-            try
-            {
-                picLogo.Image = Image.FromFile("icons/gamepad.png");
-            }
-            catch (System.IO.FileNotFoundException)
-            {
-                // 이미지 파일이 없는 경우 무시
-            }
+        
         }
 
         private void StartForm_Paint(object sender, PaintEventArgs e)
@@ -118,6 +111,11 @@ namespace EasyGamePack
         }
 
         private void lblGameList_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StartForm_Load(object sender, EventArgs e)
         {
 
         }

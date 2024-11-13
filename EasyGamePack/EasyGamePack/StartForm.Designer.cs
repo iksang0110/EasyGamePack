@@ -21,19 +21,17 @@ namespace EasyGamePack
         private void InitializeComponent()
         {
             this.panelMain = new System.Windows.Forms.Panel();
-            this.picLogo = new System.Windows.Forms.PictureBox();
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblSubTitle = new System.Windows.Forms.Label();
             this.lblGameList = new System.Windows.Forms.Label();
             this.btnStart = new System.Windows.Forms.Button();
             this.panelMain.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.Color.Transparent;
-            this.panelMain.Controls.Add(this.picLogo);
+            this.panelMain.BackgroundImage = global::EasyGamePack.Properties.Resources.resized_startimage_700x700;
             this.panelMain.Controls.Add(this.lblTitle);
             this.panelMain.Controls.Add(this.lblSubTitle);
             this.panelMain.Controls.Add(this.lblGameList);
@@ -46,34 +44,23 @@ namespace EasyGamePack
             this.panelMain.TabIndex = 0;
             this.panelMain.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMain_Paint);
             // 
-            // picLogo
-            // 
-            this.picLogo.BackColor = System.Drawing.Color.Transparent;
-            this.picLogo.Location = new System.Drawing.Point(250, 40);
-            this.picLogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(200, 160);
-            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picLogo.TabIndex = 1;
-            this.picLogo.TabStop = false;
-            // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblTitle.Font = new System.Drawing.Font("맑은 고딕", 48F, System.Drawing.FontStyle.Bold);
-            this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(180, 194);
+            this.lblTitle.ForeColor = System.Drawing.Color.Black;
+            this.lblTitle.Location = new System.Drawing.Point(108, 98);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(357, 86);
+            this.lblTitle.Size = new System.Drawing.Size(486, 172);
             this.lblTitle.TabIndex = 2;
-            this.lblTitle.Text = "이지게임팩";
+            this.lblTitle.Text = "이지게임팩\r\nEasyGamePack";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblSubTitle
             // 
             this.lblSubTitle.AutoSize = true;
-            this.lblSubTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblSubTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblSubTitle.Font = new System.Drawing.Font("맑은 고딕", 14F);
             this.lblSubTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.lblSubTitle.Location = new System.Drawing.Point(199, 280);
@@ -86,9 +73,9 @@ namespace EasyGamePack
             // lblGameList
             // 
             this.lblGameList.AutoSize = true;
-            this.lblGameList.BackColor = System.Drawing.Color.Transparent;
+            this.lblGameList.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.lblGameList.Font = new System.Drawing.Font("맑은 고딕", 11F);
-            this.lblGameList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
+            this.lblGameList.ForeColor = System.Drawing.Color.Black;
             this.lblGameList.Location = new System.Drawing.Point(191, 475);
             this.lblGameList.Name = "lblGameList";
             this.lblGameList.Size = new System.Drawing.Size(326, 40);
@@ -129,9 +116,9 @@ namespace EasyGamePack
             this.Name = "StartForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "이지게임팩 - Welcome";
+            this.Load += new System.EventHandler(this.StartForm_Load);
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -141,6 +128,5 @@ namespace EasyGamePack
         private System.Windows.Forms.Label lblSubTitle;
         private System.Windows.Forms.Label lblGameList;
         private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.PictureBox picLogo;
     }
 }
