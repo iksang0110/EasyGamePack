@@ -63,6 +63,26 @@ namespace EasyGamePack.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap BLACKj {
+            get {
+                object obj = ResourceManager.GetObject("BLACKj", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap memory {
+            get {
+                object obj = ResourceManager.GetObject("memory", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap OMok {
             get {
                 object obj = ResourceManager.GetObject("OMok", resourceCulture);
@@ -76,6 +96,16 @@ namespace EasyGamePack.Properties {
         internal static System.Drawing.Bitmap resized_startimage_700x700 {
             get {
                 object obj = ResourceManager.GetObject("resized_startimage_700x700", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap tictactoe {
+            get {
+                object obj = ResourceManager.GetObject("tictactoe", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

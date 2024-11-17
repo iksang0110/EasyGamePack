@@ -27,42 +27,42 @@ namespace EasyGamePack
             this.panelMain = new System.Windows.Forms.Panel();
             this.flowGames = new System.Windows.Forms.FlowLayoutPanel();
             this.panelOmok = new System.Windows.Forms.Panel();
-            this.picOmok = new System.Windows.Forms.PictureBox();
             this.lblOmokTitle = new System.Windows.Forms.Label();
             this.lblOmokDesc = new System.Windows.Forms.Label();
             this.btnOmok = new System.Windows.Forms.Button();
             this.panelTicTacToe = new System.Windows.Forms.Panel();
-            this.picTicTacToe = new System.Windows.Forms.PictureBox();
             this.lblTicTacToeTitle = new System.Windows.Forms.Label();
             this.lblTicTacToeDesc = new System.Windows.Forms.Label();
             this.btnTicTacToe = new System.Windows.Forms.Button();
             this.panelTetris = new System.Windows.Forms.Panel();
-            this.picTetris = new System.Windows.Forms.PictureBox();
             this.lblTetrisTitle = new System.Windows.Forms.Label();
             this.lblTetrisDesc = new System.Windows.Forms.Label();
             this.btnTetris = new System.Windows.Forms.Button();
             this.panelBlackjack = new System.Windows.Forms.Panel();
-            this.picBlackjack = new System.Windows.Forms.PictureBox();
             this.lblBlackjackTitle = new System.Windows.Forms.Label();
             this.lblBlackjackDesc = new System.Windows.Forms.Label();
             this.btnBlackjack = new System.Windows.Forms.Button();
             this.panelMemory = new System.Windows.Forms.Panel();
-            this.picMemory = new System.Windows.Forms.PictureBox();
             this.lblMemoryTitle = new System.Windows.Forms.Label();
             this.lblMemoryDesc = new System.Windows.Forms.Label();
             this.btnMemory = new System.Windows.Forms.Button();
+            this.picOmok = new System.Windows.Forms.PictureBox();
+            this.picTicTacToe = new System.Windows.Forms.PictureBox();
+            this.picTetris = new System.Windows.Forms.PictureBox();
+            this.picBlackjack = new System.Windows.Forms.PictureBox();
+            this.picMemory = new System.Windows.Forms.PictureBox();
             this.panelTop.SuspendLayout();
             this.panelMain.SuspendLayout();
             this.flowGames.SuspendLayout();
             this.panelOmok.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picOmok)).BeginInit();
             this.panelTicTacToe.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picTicTacToe)).BeginInit();
             this.panelTetris.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picTetris)).BeginInit();
             this.panelBlackjack.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBlackjack)).BeginInit();
             this.panelMemory.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picOmok)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTicTacToe)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTetris)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBlackjack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMemory)).BeginInit();
             this.SuspendLayout();
             // 
@@ -127,7 +127,7 @@ namespace EasyGamePack
             this.panelMain.Location = new System.Drawing.Point(0, 64);
             this.panelMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(700, 496);
+            this.panelMain.Size = new System.Drawing.Size(700, 466);
             this.panelMain.TabIndex = 0;
             // 
             // flowGames
@@ -145,7 +145,7 @@ namespace EasyGamePack
             this.flowGames.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowGames.Name = "flowGames";
             this.flowGames.Padding = new System.Windows.Forms.Padding(15, 16, 15, 16);
-            this.flowGames.Size = new System.Drawing.Size(700, 496);
+            this.flowGames.Size = new System.Drawing.Size(700, 466);
             this.flowGames.TabIndex = 0;
             this.flowGames.WrapContents = false;
             this.flowGames.Paint += new System.Windows.Forms.PaintEventHandler(this.flowGames_Paint);
@@ -162,18 +162,6 @@ namespace EasyGamePack
             this.panelOmok.Name = "panelOmok";
             this.panelOmok.Size = new System.Drawing.Size(180, 360);
             this.panelOmok.TabIndex = 0;
-            // 
-            // picOmok
-            // 
-            this.picOmok.BackColor = System.Drawing.Color.Transparent;
-            this.picOmok.BackgroundImage = global::EasyGamePack.Properties.Resources.OMok;
-            this.picOmok.Location = new System.Drawing.Point(20, 16);
-            this.picOmok.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.picOmok.Name = "picOmok";
-            this.picOmok.Size = new System.Drawing.Size(140, 112);
-            this.picOmok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picOmok.TabIndex = 0;
-            this.picOmok.TabStop = false;
             // 
             // lblOmokTitle
             // 
@@ -227,17 +215,6 @@ namespace EasyGamePack
             this.panelTicTacToe.Size = new System.Drawing.Size(180, 360);
             this.panelTicTacToe.TabIndex = 1;
             // 
-            // picTicTacToe
-            // 
-            this.picTicTacToe.BackColor = System.Drawing.Color.Transparent;
-            this.picTicTacToe.Location = new System.Drawing.Point(20, 16);
-            this.picTicTacToe.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.picTicTacToe.Name = "picTicTacToe";
-            this.picTicTacToe.Size = new System.Drawing.Size(140, 112);
-            this.picTicTacToe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picTicTacToe.TabIndex = 0;
-            this.picTicTacToe.TabStop = false;
-            // 
             // lblTicTacToeTitle
             // 
             this.lblTicTacToeTitle.Font = new System.Drawing.Font("맑은 고딕", 16F, System.Drawing.FontStyle.Bold);
@@ -289,18 +266,6 @@ namespace EasyGamePack
             this.panelTetris.Name = "panelTetris";
             this.panelTetris.Size = new System.Drawing.Size(180, 360);
             this.panelTetris.TabIndex = 2;
-            // 
-            // picTetris
-            // 
-            this.picTetris.BackColor = System.Drawing.Color.Transparent;
-            this.picTetris.Location = new System.Drawing.Point(20, 16);
-            this.picTetris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.picTetris.Name = "picTetris";
-            this.picTetris.Size = new System.Drawing.Size(140, 112);
-            this.picTetris.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picTetris.TabIndex = 0;
-            this.picTetris.TabStop = false;
-            this.picTetris.Click += new System.EventHandler(this.picTetris_Click);
             // 
             // lblTetrisTitle
             // 
@@ -354,17 +319,6 @@ namespace EasyGamePack
             this.panelBlackjack.Size = new System.Drawing.Size(180, 360);
             this.panelBlackjack.TabIndex = 3;
             // 
-            // picBlackjack
-            // 
-            this.picBlackjack.BackColor = System.Drawing.Color.Transparent;
-            this.picBlackjack.Location = new System.Drawing.Point(20, 16);
-            this.picBlackjack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.picBlackjack.Name = "picBlackjack";
-            this.picBlackjack.Size = new System.Drawing.Size(140, 112);
-            this.picBlackjack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBlackjack.TabIndex = 0;
-            this.picBlackjack.TabStop = false;
-            // 
             // lblBlackjackTitle
             // 
             this.lblBlackjackTitle.Font = new System.Drawing.Font("맑은 고딕", 16F, System.Drawing.FontStyle.Bold);
@@ -417,17 +371,6 @@ namespace EasyGamePack
             this.panelMemory.Size = new System.Drawing.Size(180, 360);
             this.panelMemory.TabIndex = 4;
             // 
-            // picMemory
-            // 
-            this.picMemory.BackColor = System.Drawing.Color.Transparent;
-            this.picMemory.Location = new System.Drawing.Point(20, 16);
-            this.picMemory.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.picMemory.Name = "picMemory";
-            this.picMemory.Size = new System.Drawing.Size(140, 112);
-            this.picMemory.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picMemory.TabIndex = 0;
-            this.picMemory.TabStop = false;
-            // 
             // lblMemoryTitle
             // 
             this.lblMemoryTitle.Font = new System.Drawing.Font("맑은 고딕", 16F, System.Drawing.FontStyle.Bold);
@@ -467,12 +410,76 @@ namespace EasyGamePack
             this.btnMemory.UseVisualStyleBackColor = false;
             this.btnMemory.Click += new System.EventHandler(this.btnMemory_Click);
             // 
+            // picOmok
+            // 
+            this.picOmok.BackColor = System.Drawing.Color.Transparent;
+            this.picOmok.BackgroundImage = global::EasyGamePack.Properties.Resources.OMok;
+            this.picOmok.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picOmok.ErrorImage = null;
+            this.picOmok.Location = new System.Drawing.Point(20, 16);
+            this.picOmok.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picOmok.Name = "picOmok";
+            this.picOmok.Size = new System.Drawing.Size(140, 112);
+            this.picOmok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picOmok.TabIndex = 0;
+            this.picOmok.TabStop = false;
+            // 
+            // picTicTacToe
+            // 
+            this.picTicTacToe.BackColor = System.Drawing.Color.Transparent;
+            this.picTicTacToe.BackgroundImage = global::EasyGamePack.Properties.Resources.tictactoe;
+            this.picTicTacToe.Location = new System.Drawing.Point(20, 16);
+            this.picTicTacToe.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picTicTacToe.Name = "picTicTacToe";
+            this.picTicTacToe.Size = new System.Drawing.Size(140, 112);
+            this.picTicTacToe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picTicTacToe.TabIndex = 0;
+            this.picTicTacToe.TabStop = false;
+            // 
+            // picTetris
+            // 
+            this.picTetris.BackColor = System.Drawing.Color.Transparent;
+            this.picTetris.Location = new System.Drawing.Point(20, 16);
+            this.picTetris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picTetris.Name = "picTetris";
+            this.picTetris.Size = new System.Drawing.Size(140, 112);
+            this.picTetris.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picTetris.TabIndex = 0;
+            this.picTetris.TabStop = false;
+            this.picTetris.Click += new System.EventHandler(this.picTetris_Click);
+            // 
+            // picBlackjack
+            // 
+            this.picBlackjack.BackColor = System.Drawing.Color.Transparent;
+            this.picBlackjack.BackgroundImage = global::EasyGamePack.Properties.Resources.BLACKj;
+            this.picBlackjack.ErrorImage = global::EasyGamePack.Properties.Resources.BLACKj;
+            this.picBlackjack.Location = new System.Drawing.Point(20, 16);
+            this.picBlackjack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picBlackjack.Name = "picBlackjack";
+            this.picBlackjack.Size = new System.Drawing.Size(140, 112);
+            this.picBlackjack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBlackjack.TabIndex = 0;
+            this.picBlackjack.TabStop = false;
+            // 
+            // picMemory
+            // 
+            this.picMemory.BackColor = System.Drawing.Color.Transparent;
+            this.picMemory.BackgroundImage = global::EasyGamePack.Properties.Resources.memory;
+            this.picMemory.ErrorImage = global::EasyGamePack.Properties.Resources.memory;
+            this.picMemory.Location = new System.Drawing.Point(20, 16);
+            this.picMemory.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picMemory.Name = "picMemory";
+            this.picMemory.Size = new System.Drawing.Size(140, 112);
+            this.picMemory.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picMemory.TabIndex = 0;
+            this.picMemory.TabStop = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(37)))), ((int)(((byte)(42)))));
-            this.ClientSize = new System.Drawing.Size(700, 560);
+            this.ClientSize = new System.Drawing.Size(700, 530);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -486,14 +493,14 @@ namespace EasyGamePack
             this.panelMain.ResumeLayout(false);
             this.flowGames.ResumeLayout(false);
             this.panelOmok.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picOmok)).EndInit();
             this.panelTicTacToe.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picTicTacToe)).EndInit();
             this.panelTetris.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picTetris)).EndInit();
             this.panelBlackjack.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picBlackjack)).EndInit();
             this.panelMemory.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picOmok)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTicTacToe)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTetris)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBlackjack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMemory)).EndInit();
             this.ResumeLayout(false);
 
