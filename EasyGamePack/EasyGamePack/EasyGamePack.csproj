@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="game\BlackJack\BlackJack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\BlackJack\BlackJack.Designer.cs">
+      <DependentUpon>BlackJack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="game\BlackJack\BlackJackMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game\BlackJack\BlackJackMain.Designer.cs">
+      <DependentUpon>BlackJackMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="game\memory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +120,12 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="game\BlackJack\BlackJack.resx">
+      <DependentUpon>BlackJack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game\BlackJack\BlackJackMain.resx">
+      <DependentUpon>BlackJackMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="game\memory.resx">
       <DependentUpon>memory.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,6 +185,216 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tetris1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlackJackOpeningScreenBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayButtonHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameBoardBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlackJackTable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DealButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DealButtonHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HitButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HitButtonDisabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HitButtonHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NextRoundButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NextRoundButtonHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StandButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StandButtonDisabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StandButtonHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b1fv.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b2fv.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blank.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c01.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c02.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c03.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c04.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c05.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c06.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c07.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c08.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c09.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c13.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d01.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d02.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d03.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d04.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d05.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d06.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d07.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d08.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d09.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d13.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h01.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h02.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h03.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h04.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h05.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h06.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h07.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h08.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h09.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h13.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s01.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s02.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s03.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s04.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s05.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s06.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s07.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s08.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s09.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s13.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -224,8 +224,9 @@ namespace EasyGamePack
 
         private void btnBlackjack_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("블랙잭 게임이 준비 중입니다.", "알림",
-                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // BlackJack 폼을 생성하고 열기
+            EasyGamePack.game.BlackJack.BlackJack blackjackForm = new EasyGamePack.game.BlackJack.BlackJack();
+            blackjackForm.Show(); // BlackJack 폼을 표시
         }
 
         private void btnMemory_Click(object sender, EventArgs e)
