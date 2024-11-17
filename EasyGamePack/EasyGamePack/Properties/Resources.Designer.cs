@@ -103,6 +103,16 @@ namespace EasyGamePack.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap tetris {
+            get {
+                object obj = ResourceManager.GetObject("tetris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap tictactoe {
             get {
                 object obj = ResourceManager.GetObject("tictactoe", resourceCulture);

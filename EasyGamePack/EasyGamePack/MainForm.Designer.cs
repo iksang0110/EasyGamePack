@@ -439,6 +439,7 @@ namespace EasyGamePack
             // picTetris
             // 
             this.picTetris.BackColor = System.Drawing.Color.Transparent;
+            this.picTetris.BackgroundImage = global::EasyGamePack.Properties.Resources.tetris;
             this.picTetris.Location = new System.Drawing.Point(20, 16);
             this.picTetris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picTetris.Name = "picTetris";
