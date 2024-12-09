@@ -128,7 +128,7 @@ git push origin feature/omok
 
 
 # 이지게임팩 (EasyGamePack)
-## 원광대학교 윈도우프로그래밍 6조 프로젝트
+## 윈도우프로그래밍 6조 프로젝트
 
 <div align="center">
   <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white">
